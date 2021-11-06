@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="css/contactUs.css">
+    <link rel="stylesheet" href="css/media/main.css">
+    <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+                            integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+                            crossorigin="anonymous"/>
+</head>
+<body>   
+                    <!--Nav and Logo-->
+ <nav>
+                    <!-- preference for smaller screen -->
+      <input type="checkbox" id="check">
+      <label for="check">
+          <i class="fas fa-bars" id="btn"></i>
+          <i class="fas fa-times" id="cancel"></i>
+      </label>
+                    <!-- logo with navbar -->
+      <a href="index.html">
+      <img src="images/logo1.jpg" alt="logo">
+   
+                    <!-- Top__navBar -->
+  <ul id="top__nav"> 
+  <li><a href="index.html">Home</a></li>
+  <li><a href="Sitemap.html">Sitemap</a></li>
+  <li><a href="contactUs.html" style="color:red;">Contact Us</a></li>
+  </ul>
+                    <!-- Lower NavBar -->
+      <ul id="new">
+          <li><a href="management.html">Management</a></li>
+          <li><a href="operationalHighlights.html">Operational Highlights</a></li>
+          <li><a href="financialHighlights.html">Financial Highlights</a></li>
+          <li><a href="investorsDesk.html">Investors Desk</a></li>
+          <li><a href="aboutOman.html">About Oman</a></li>  
+      </ul>
+  </nav>
+                    <!-- NavBar end here -->
+                    <!-- body content start here -->
+
+<section class="contact">
+    <div class="content">
+        <h2>Contact Us</h2>
+        <p>Based on the company core business being related oilfield 
+            activities as well as the fact that the contract is for an
+             indefinite period, the Board of Directors strongly believe 
+             that SHC work will remain constant and shall ensure ongoing 
+             business continuity in the future period.</p>
+             <hr>
+    </div>
+   
+    <div class="contactBox">
+        <div class="contactInfo">
+            <div class="box">
+                <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="text">
+                    <h3>Address</h3>
+                    <p>Bldg. No. 1813, Way No. 2728<br>
+                        Bank Al Markazi Street, MBD Area<br>
+                        P.O. Box 311, Muscat, Postal Code 100<br>
+                        Sultanate of Oman.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                <div class="text">
+                    <h3>Phone</h3>
+                    <p>+968 24769800</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="far fa-envelope"></i></div>
+                <div class="text">
+                    <h3>Email</h3>
+                    <p>saharaom@omantel.net.om</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fas fa-map-marked-alt"></i></div>
+                <div class="text">
+                    <h3>Our Location</h3>
+                    <p>To find us in Google Map please click <a href="https://goo.gl/maps/YAQaibT8eNhbbGpf9"><strong>here</strong>.</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="contactForm">
+            <form>
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="inputBox">
+                    <textarea required="required"></textarea>
+                    <span>Type your Message</span>
+                </div>
+                <div class="inputBox">
+                    <input id="myBtn" type="submit" name="" value="Send">
+                    <p id="demo"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+     
+
+
+
+<script>
+    document.getElementById("myBtn").addEventListener("click", displayDate);
+    
+    function displayDate() {
+      document.getElementById("demo").innerHTML = Date();
+    }
+    </script>
+
+
+                    <!-- body content end here       -->
+                    <!--Footer with responsive area-->
+<footer>
+        <div class="footer">
+            <div class="footerContainer__top">          
+                <div class="footerIcon__top" >                   
+                    <div class="footer__text">
+                        <div class="footerIcon__top__icon">
+                                <a href="contactUs.html"><i class="fas fa-phone-alt" ></i></a>
+                        </div>
+                            <div id="text">
+                                <h3 class="footer-heading;">How to Contact US</h3>
+                                <p>Tel:(968)24769800,Fax:(968)24787830</p>
+                            </div>
+                            <div id="plusSign">
+                                <a href="contactUs.html"><p><abbr title="Press the icon to know more">+</abbr></p></a>
+                            </div>
+                    </div>
+                <div class="footer__text">
+                    <div class="footerIcon__top__icon">
+                                <a href="pressRoom.html"><i class="fas fa-calendar-week"></i></a>
+                    </div>
+                            <div id="text">
+                                <h3 class="footer-heading;">Press Room</h3>
+                                <p>Find whats new in Sahara.</p>
+                            </div>
+                            <div id="plusSign">
+                                <a href="pressRoom.html"><p><abbr title="Press the icon to know more">+</abbr></p></a>
+                            </div>
+                </div>
+                <div class="footer__text">
+                            <div class="footerIcon__top__icon">
+                                <a href="awards.html"><i class="fas fa-award"></i></a>
+                            </div>
+                            <div id="text">
+                                <h3 class="footer-heading;">Awards & Accreditations</h3>
+                                <p>Milestones we reached.</p>
+                            </div>
+                            <div id="plusSign">
+                                <a href="awards.html"><p><abbr title="Press the icon to know more">+</abbr></p></a>
+                            </div>
+                </div>
+            </div>
+        </div>
+           <div class="footerContainer__bottom">
+               <div class="footerContainer__bottom__navbar">
+                   <ul id="bottom__nav">
+                    <li><a href="index.html">                  Home</a> <span><strong>&nbsp;| &nbsp;</strong></span></li>
+                    <li><a href="management.html">             Management</a> <span><strong>&nbsp;| &nbsp;</strong></span></li>
+                    <li><a href="operationalHighlights.html">  Operational Highlights</a> <span><strong>&nbsp;| &nbsp;</strong></span></li>
+                    <li><a href="investorsDesk.html">          Investor's Desk</a> <span><strong>&nbsp;| &nbsp;</strong></span></li>
+                    <li><a href="aboutOman.html">              About Oman</a> <span><strong>&nbsp;| &nbsp;</strong></span></li>
+                    <li><a href="Career.html">                 Career</a> <span><strong>&nbsp;| &nbsp;</strong></span></li>
+                    <li><a href="contactUs.html">              Contact Us</a> <span><strong>&nbsp;| &nbsp;</strong></span></li>
+                </ul>
+                </div>
+            </div>
+            <div class="footerIcon__bottom__icon">
+            <div class="footerIcon__bottom__icon__social">
+            <div class="social">
+            <div id="social__links">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fab fa-google-plus"></i></a>
+            </div>
+            </div>
+        </div>    
+    </div>              
+        <div class="footerLogo">
+            <a href="index.html">  <img  src="images/logo_noBackground.png" width="80%" height="80%" alt=""/>
+            </a>
+        </div>
+         <div class="nav__bottom">
+            Site is developed & Maintained by_AA Group - IT Team
+        </div>             
+</footer>   
+</body>
+</html>
