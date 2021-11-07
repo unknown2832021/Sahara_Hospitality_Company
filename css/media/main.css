@@ -1,0 +1,443 @@
+@media screen and (max-width:2500px){
+          /* Navbar start */
+  nav{
+    height: 150px;
+}
+  nav img{
+    width: 200px;
+}
+  nav #top__nav li a{
+    font-size: 18px;
+}
+  nav #new li a{
+    font-size: 22px;
+}
+          /* Navbar end here  */
+  .marquee{
+    line-height: 30px;
+    font-size: 20px;
+}
+  #main{
+    width: 2100px;
+    height: 800px;
+}
+  .card {
+    width: 400px;
+    height: 420px;
+}
+  .card .info h1{
+    font-size: 25px;
+}
+  .card .info p {
+    font-size: 16px;
+}
+  .basic{
+    height: 150px;
+}
+}
+
+@media screen and (max-width:2200px){
+  #main{
+    width: 2000px;
+    height: 750px;
+}
+  .card {
+    width: 380px;
+    height: 420px;
+}
+  .card .info h1{
+    font-size: 25px;
+}
+  .card .info p {
+    font-size: 16px;
+}
+  .basic{
+    height: 150px;
+}
+}
+
+@media screen and (max-width:2050px){
+  #main{
+    width: 1900px;
+    height: 750px;
+}
+  .card {
+    width: 380px;
+    height: 420px;
+}
+  .card .info h1{
+    font-size: 25px;
+}
+  .card .info p {
+    font-size: 16px;
+}
+  .basic{
+    height: 150px;
+}
+}
+
+@media screen and (max-width:1950px){
+  #main{
+    width: 1800px;
+    height: 650px;
+}
+  .card {
+    width: 350px;
+    height: 400px;
+}
+  .card .info h1{
+    font-size: 25px;
+}
+  .card .info p {
+    font-size: 16px;
+}
+  .basic{
+    height: 150px;
+}
+}
+
+@media screen and (max-width:1850px){
+  nav{
+    height: 135px;
+}
+  nav img{
+    width: 165px;
+}
+  nav #top__nav li a{
+    font-size: 15px;
+}
+  nav #new li a{
+    font-size: 15px;
+}
+  .marquee{
+    line-height: 20px;
+    font-size: 18px;
+}
+  #main{
+    width: 1650px;
+    height: 600px;
+}
+  .card {
+    width: 320px;
+    height: 390px;
+}
+  .card .info h1{
+    font-size: 25px;
+}
+  .card .info p {
+    font-size: 16px;
+}
+  .basic{
+    height: 150px;
+}
+}
+
+@media screen and (max-width:1800px){
+  #main{
+    width: 1550px;
+    height: 580px;
+}
+  .card {
+    width: 300px;
+    height: 370px;
+}
+  .card .info h1{
+    font-size: 20px;
+}
+  .card .info p {
+    font-size: 14px;
+}
+  .basic{
+    height: 80px;
+}
+}
+
+@media screen and (max-width:1650px){
+  #main{
+    width: 1400px;
+    height: 570px;
+}
+  .card {
+    width: 270px;
+    height: 330px;
+}
+  .card .info h1{
+    font-size: 20px;
+}
+  .card .info p {
+    font-size: 13px;
+}
+}
+
+@media screen and (max-width:1500px){
+  #main{
+    width: 1300px;
+    height: 550px;
+}
+}
+
+@media screen and (max-width:1450px){
+  #main{
+    width: 1250px;
+    height: 550px;
+}
+}
+
+@media screen and (max-width:1400px){
+  #main{
+    width: 1200px;
+    height: 550px;
+}
+}
+
+@media (max-width: 1310px){
+  label #btn {
+    display: block;
+}
+  #main{
+    width: 1160px;
+    height: 500px;
+}
+  #new{
+    background: rgba(255, 255, 255, 0.795);
+    left: -100%;
+    position: fixed;
+    text-align: center;
+    top: 6.9em;
+    transition: all .8s ease;
+    width: 100%;
+    z-index: 5;
+}
+  nav #new li{
+    display: block;
+    margin: 50px 0;
+    line-height: 17px;
+}
+}
+
+@media screen and (max-width:1200px){
+  #main{
+    width: 1050px;
+    height: 450px;
+}
+  .card {
+    width: 220px;
+    height: 300px;
+}
+  .card .info h1{
+    font-size: 18px;
+}
+  .card .info p {
+    font-size: 11px;
+}
+}
+
+@media screen and (max-width:1100px){
+  #main{
+    width: 1000px;
+    height: 450px;
+}
+  .card {
+    width: 220px;
+    height: 300px;
+}
+  .card .info h1{
+    font-size: 18px;
+}
+  .card .info p {
+    font-size: 10px;
+}
+  .footerContainer__top{
+    max-width: auto;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+}
+
+@media screen and (max-width:1050px){
+  #main{
+    width: 900px;
+    height: 450px;
+}
+  .basic{
+    height: 40px;
+}
+}
+
+@media screen and (max-width:950px){
+  #main{
+    width: 850px;
+    height: 450px;
+}
+  .card {
+    width: 180px;
+    height: 250px;
+}
+  .card .info h1{
+    font-size: 15px;
+}
+  .card .info p {
+    font-size: 8px;
+    text-align: left;
+} 
+}
+
+@media screen and (max-width:886px){
+  #main{
+    width: 770px;
+    height: 350px;
+}
+  .wrapper {
+    margin-top: -100px;
+}
+}
+
+@media screen and (max-width:800px){
+  #main{
+    width: 700px;
+    height: 300px;
+}
+  .card {
+    width: 190px;
+    height: 220px;
+}
+  .card .info h1{
+    font-size: 12px;
+}
+  .card .info p {
+    font-size: 7.5px;
+    text-align: left;
+}
+  .wrapper {
+    margin-top: -120px;
+}
+.footerContainer__top{
+  max-width: auto;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+  #text h3{
+    font-size: 16px;
+}
+  #text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+} 
+  #bottom__nav li a{
+    font-size: 10px;
+}
+  .nav__bottom{
+    font-size: 10px;
+}
+}
+
+@media(max-width:768px) {
+  nav img{
+    left: 4%;
+    position: absolute;
+    top: 40px;
+    width: 165px;
+    z-index: 1;
+} 
+  #main{
+    width: 650px;
+    height: 300px;
+}
+  .wrapper{
+    flex-direction: column;
+    justify-content: center;
+    height: 900px;
+    margin-top: -50px;
+}
+  .card {
+    width: 230px;
+    height: 370px;
+    margin: 10px;
+}
+  .card .info h1{
+    font-size: 13px;
+}
+  .card .info p {
+    font-size: 11px;
+    text-align: left;
+}
+  #text h3{
+    font-size: 15px;
+}
+  #text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-style: italic;
+} 
+}
+
+@media(max-width:670px) {
+  #main{
+    width: 550px;
+    height: 300px;
+}
+  .wrapper{
+    flex-direction: column;
+    justify-content: center;
+    height: 900px;
+    margin-top: -50px;
+}
+  .card {
+    width: 200px;
+    height: 330px;
+    margin: 10px;
+}
+  .card .info h1{
+    font-size: 12px;
+}
+  .card .info p {
+    font-size: 10px;
+    text-align: left;
+}
+}
+
+@media screen and (max-width:586px){
+  #main{
+    width: 480px;
+    height: 280px;
+}
+  .wrapper{
+    flex-direction: column;
+    justify-content: center;
+    height: 900px;
+    margin-top: -50px;
+}
+  .card {
+    width: 200px;
+    height: 330px;
+    margin: 10px;
+}
+  .card .info h1{
+    font-size: 12px;
+}
+  .card .info p {
+    font-size: 10px;
+    text-align: left;
+}
+}
+  
+@media screen and (max-width:500px){
+  #main{
+    width: 400px;
+    height: 280px;
+}
+  .card {
+    width: 180px;
+    height: 320px;
+    margin: 10px;
+}
+  .card .info h1{
+    font-size: 11px;
+}
+  .card .info p {
+    font-size: 9px;
+    text-align: left;
+}
+}
+ 
